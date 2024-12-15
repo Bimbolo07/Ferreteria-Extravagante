@@ -920,3 +920,40 @@ body {
         background: #333;
     }
 }
+
+#pedidos {
+    background-color: #3333333a;
+    padding: 10px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 0px 19%;
+    width: 65%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#enviar-button {
+    width: 20%;
+    color: #f1f1f1;
+    padding: 10px;
+    margin: 10px;
+    background: #333;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#email-adress {
+    outline: none;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #333;
+    font-weight: 400;
+    border-radius: 8px;
+    background: #fff;
+}
+
+#email-adress:focus{
+    border: 1px solid black;
+}
